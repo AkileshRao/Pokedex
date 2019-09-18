@@ -1,0 +1,4 @@
+<app-pokemon *ngFor='let p of pokemon; let i = index' [poke_name]='p.name' [poke_index]='i + 1'
+    (click)='openPokemon(i+1)'>
+    {{p.name}}
+</app-pokemon>
