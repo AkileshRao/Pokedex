@@ -1,0 +1,606 @@
+[
+    {
+        "id": 1,
+        "primary_type": "grass"
+    },
+    {
+        "id": 2,
+        "primary_type": "grass"
+    },
+    {
+        "id": 3,
+        "primary_type": "grass"
+    },
+    {
+        "id": 4,
+        "primary_type": "fire"
+    },
+    {
+        "id": 5,
+        "primary_type": "fire"
+    },
+    {
+        "id": 6,
+        "primary_type": "fire"
+    },
+    {
+        "id": 7,
+        "primary_type": "water"
+    },
+    {
+        "id": 8,
+        "primary_type": "water"
+    },
+    {
+        "id": 9,
+        "primary_type": "water"
+    },
+    {
+        "id": 10,
+        "primary_type": "bug"
+    },
+    {
+        "id": 11,
+        "primary_type": "bug"
+    },
+    {
+        "id": 12,
+        "primary_type": "bug"
+    },
+    {
+        "id": 13,
+        "primary_type": "bug"
+    },
+    {
+        "id": 14,
+        "primary_type": "bug"
+    },
+    {
+        "id": 15,
+        "primary_type": "bug"
+    },
+    {
+        "id": 16,
+        "primary_type": "flying"
+    },
+    {
+        "id": 17,
+        "primary_type": "flying"
+    },
+    {
+        "id": 18,
+        "primary_type": "flying"
+    },
+    {
+        "id": 19,
+        "primary_type": "normal"
+    },
+    {
+        "id": 20,
+        "primary_type": "normal"
+    },
+    {
+        "id": 21,
+        "primary_type": "flying"
+    },
+    {
+        "id": 22,
+        "primary_type": "flying"
+    },
+    {
+        "id": 23,
+        "primary_type": "poison"
+    },
+    {
+        "id": 24,
+        "primary_type": "poison"
+    },
+    {
+        "id": 25,
+        "primary_type": "electric"
+    },
+    {
+        "id": 26,
+        "primary_type": "electric"
+    },
+    {
+        "id": 27,
+        "primary_type": "ground"
+    },
+    {
+        "id": 28,
+        "primary_type": "ground"
+    },
+    {
+        "id": 29,
+        "primary_type": "poison"
+    },
+    {
+        "id": 30,
+        "primary_type": "poison"
+    },
+    {
+        "id": 31,
+        "primary_type": "poison"
+    },
+    {
+        "id": 32,
+        "primary_type": "poison"
+    },
+    {
+        "id": 33,
+        "primary_type": "poison"
+    },
+    {
+        "id": 34,
+        "primary_type": "poison"
+    },
+    {
+        "id": 35,
+        "primary_type": "fairy"
+    },
+    {
+        "id": 36,
+        "primary_type": "fairy"
+    },
+    {
+        "id": 37,
+        "primary_type": "fire"
+    },
+    {
+        "id": 38,
+        "primary_type": "fire"
+    },
+    {
+        "id": 39,
+        "primary_type": "fairy"
+    },
+    {
+        "id": 40,
+        "primary_type": "fairy"
+    },
+    {
+        "id": 41,
+        "primary_type": "poison"
+    },
+    {
+        "id": 42,
+        "primary_type": "poison"
+    },
+    {
+        "id": 43,
+        "primary_type": "grass"
+    },
+    {
+        "id": 44,
+        "primary_type": "grass"
+    },
+    {
+        "id": 45,
+        "primary_type": "grass"
+    },
+    {
+        "id": 46,
+        "primary_type": "bug"
+    },
+    {
+        "id": 47,
+        "primary_type": "bug"
+    },
+    {
+        "id": 48,
+        "primary_type": "bug"
+    },
+    {
+        "id": 49,
+        "primary_type": "bug"
+    },
+    {
+        "id": 50,
+        "primary_type": "ground"
+    },
+    {
+        "id": 51,
+        "primary_type": "ground"
+    },
+    {
+        "id": 52,
+        "primary_type": "normal"
+    },
+    {
+        "id": 53,
+        "primary_type": "normal"
+    },
+    {
+        "id": 54,
+        "primary_type": "water"
+    },
+    {
+        "id": 55,
+        "primary_type": "water"
+    },
+    {
+        "id": 56,
+        "primary_type": "fighting"
+    },
+    {
+        "id": 57,
+        "primary_type": "fighting"
+    },
+    {
+        "id": 58,
+        "primary_type": "fire"
+    },
+    {
+        "id": 59,
+        "primary_type": "fire"
+    },
+    {
+        "id": 60,
+        "primary_type": "water"
+    },
+    {
+        "id": 61,
+        "primary_type": "water"
+    },
+    {
+        "id": 62,
+        "primary_type": "water"
+    },
+    {
+        "id": 63,
+        "primary_type": "psychic"
+    },
+    {
+        "id": 64,
+        "primary_type": "psychic"
+    },
+    {
+        "id": 65,
+        "primary_type": "psychic"
+    },
+    {
+        "id": 66,
+        "primary_type": "fighting"
+    },
+    {
+        "id": 67,
+        "primary_type": "fighting"
+    },
+    {
+        "id": 68,
+        "primary_type": "fighting"
+    },
+    {
+        "id": 69,
+        "primary_type": "poison"
+    },
+    {
+        "id": 70,
+        "primary_type": "poison"
+    },
+    {
+        "id": 71,
+        "primary_type": "poison"
+    },
+    {
+        "id": 72,
+        "primary_type": "water"
+    },
+    {
+        "id": 73,
+        "primary_type": "water"
+    },
+    {
+        "id": 74,
+        "primary_type": "rock"
+    },
+    {
+        "id": 75,
+        "primary_type": "rock"
+    },
+    {
+        "id": 76,
+        "primary_type": "rock"
+    },
+    {
+        "id": 77,
+        "primary_type": "fire"
+    },
+    {
+        "id": 78,
+        "primary_type": "fire"
+    },
+    {
+        "id": 79,
+        "primary_type": "water"
+    },
+    {
+        "id": 80,
+        "primary_type": "water"
+    },
+    {
+        "id": 81,
+        "primary_type": "electric"
+    },
+    {
+        "id": 82,
+        "primary_type": "electric"
+    },
+    {
+        "id": 83,
+        "primary_type": "flying"
+    },
+    {
+        "id": 84,
+        "primary_type": "flying"
+    },
+    {
+        "id": 85,
+        "primary_type": "flying"
+    },
+    {
+        "id": 86,
+        "primary_type": "water"
+    },
+    {
+        "id": 87,
+        "primary_type": "water"
+    },
+    {
+        "id": 88,
+        "primary_type": "poison"
+    },
+    {
+        "id": 89,
+        "primary_type": "poison"
+    },
+    {
+        "id": 90,
+        "primary_type": "water"
+    },
+    {
+        "id": 91,
+        "primary_type": "water"
+    },
+    {
+        "id": 92,
+        "primary_type": "ghost"
+    },
+    {
+        "id": 93,
+        "primary_type": "ghost"
+    },
+    {
+        "id": 94,
+        "primary_type": "ghost"
+    },
+    {
+        "id": 95,
+        "primary_type": "rock"
+    },
+    {
+        "id": 96,
+        "primary_type": "psychic"
+    },
+    {
+        "id": 97,
+        "primary_type": "psychic"
+    },
+    {
+        "id": 98,
+        "primary_type": "water"
+    },
+    {
+        "id": 99,
+        "primary_type": "water"
+    },
+    {
+        "id": 100,
+        "primary_type": "electric"
+    },
+    {
+        "id": 101,
+        "primary_type": "electric"
+    },
+    {
+        "id": 102,
+        "primary_type": "grass"
+    },
+    {
+        "id": 103,
+        "primary_type": "grass"
+    },
+    {
+        "id": 104,
+        "primary_type": "ground"
+    },
+    {
+        "id": 105,
+        "primary_type": "ground"
+    },
+    {
+        "id": 106,
+        "primary_type": "fighting"
+    },
+    {
+        "id": 107,
+        "primary_type": "fighting"
+    },
+    {
+        "id": 108,
+        "primary_type": "normal"
+    },
+    {
+        "id": 109,
+        "primary_type": "poison"
+    },
+    {
+        "id": 110,
+        "primary_type": "poison"
+    },
+    {
+        "id": 111,
+        "primary_type": "rock"
+    },
+    {
+        "id": 112,
+        "primary_type": "rock"
+    },
+    {
+        "id": 113,
+        "primary_type": "normal"
+    },
+    {
+        "id": 114,
+        "primary_type": "grass"
+    },
+    {
+        "id": 115,
+        "primary_type": "normal"
+    },
+    {
+        "id": 116,
+        "primary_type": "water"
+    },
+    {
+        "id": 117,
+        "primary_type": "water"
+    },
+    {
+        "id": 118,
+        "primary_type": "water"
+    },
+    {
+        "id": 119,
+        "primary_type": "water"
+    },
+    {
+        "id": 120,
+        "primary_type": "water"
+    },
+    {
+        "id": 121,
+        "primary_type": "water"
+    },
+    {
+        "id": 122,
+        "primary_type": "psychic"
+    },
+    {
+        "id": 123,
+        "primary_type": "bug"
+    },
+    {
+        "id": 124,
+        "primary_type": "psychic"
+    },
+    {
+        "id": 125,
+        "primary_type": "electric"
+    },
+    {
+        "id": 126,
+        "primary_type": "fire"
+    },
+    {
+        "id": 127,
+        "primary_type": "bug"
+    },
+    {
+        "id": 128,
+        "primary_type": "normal"
+    },
+    {
+        "id": 129,
+        "primary_type": "water"
+    },
+    {
+        "id": 130,
+        "primary_type": "water"
+    },
+    {
+        "id": 131,
+        "primary_type": "water"
+    },
+    {
+        "id": 132,
+        "primary_type": "normal"
+    },
+    {
+        "id": 133,
+        "primary_type": "normal"
+    },
+    {
+        "id": 134,
+        "primary_type": "water"
+    },
+    {
+        "id": 135,
+        "primary_type": "electric"
+    },
+    {
+        "id": 136,
+        "primary_type": "fire"
+    },
+    {
+        "id": 137,
+        "primary_type": "normal"
+    },
+    {
+        "id": 138,
+        "primary_type": "water"
+    },
+    {
+        "id": 139,
+        "primary_type": "water"
+    },
+    {
+        "id": 140,
+        "primary_type": "water"
+    },
+    {
+        "id": 141,
+        "primary_type": "water"
+    },
+    {
+        "id": 142,
+        "primary_type": "flying"
+    },
+    {
+        "id": 143,
+        "primary_type": "normal"
+    },
+    {
+        "id": 144,
+        "primary_type": "ice"
+    },
+    {
+        "id": 145,
+        "primary_type": "electric"
+    },
+    {
+        "id": 146,
+        "primary_type": "fire"
+    },
+    {
+        "id": 147,
+        "primary_type": "dragon"
+    },
+    {
+        "id": 148,
+        "primary_type": "dragon"
+    },
+    {
+        "id": 149,
+        "primary_type": "dragon"
+    },
+    {
+        "id": 150,
+        "primary_type": "psychic"
+    },
+    {
+        "id": 151,
+        "primary_type": "psychic"
+    }
+]
