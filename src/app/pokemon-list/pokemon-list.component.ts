@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { PokemonService } from '../services/pokemon.service';
-
+import { POKEMON } from '../dataset/primary-types.dataset';
 @Component({
   selector: 'app-pokemon-list',
   templateUrl: './pokemon-list.component.html',
@@ -11,10 +11,10 @@ export class PokemonListComponent implements OnInit {
   constructor(private pokeService: PokemonService) { }
 
   ngOnInit() {
-    this.pokemon = JSON.parse(localStorage.getItem('pokemon'));
+    this.pokemon = POKEMON;
   }
 
-  public openPokemon(index: string) {
+  public openPokemon(index: number) {
     this.pokeService.fetchAPokemon(index).subscribe(res => console.log(res));
   }
 }

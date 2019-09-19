@@ -1,8 +1,10 @@
-<div class="pokemon">
-    <h1>{{poke_index}}</h1>
-    <div class='poke-text'>
-        <h2>{{poke_name}}</h2>
+<div class="pokemon" [ngStyle]="{ 'background': 'var(--' + poke_primary_type + '-dark)' }">
+    <div class='poke-details'>
+        <h1>{{poke_name.charAt(0).toUpperCase() + poke_name.slice(1, poke_name.length)}}</h1>
+        <p [ngStyle]="{ 'background': 'var(--' + poke_primary_type + ')' }">{{poke_primary_type}}</p>
+        <p *ngIf='poke_secondary_type' [ngStyle]="{ 'background': 'var(--' + poke_primary_type + ')' }">
+            {{poke_secondary_type}}</p>
     </div>
-    <img src='assets/sprites/{{poke_index + ".png"}}' alt="{{poke_index}}">
-
+    <img src='assets/sprites/{{poke_index + ".png"}}' alt="{{poke_index}}"
+        [ngStyle]="{ 'background': 'var(--' + poke_primary_type + ')' }">
 </div>

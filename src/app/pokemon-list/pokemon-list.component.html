@@ -1,4 +1,4 @@
-<app-pokemon *ngFor='let p of pokemon; let i = index' [poke_name]='p.name' [poke_index]='i + 1'
-    (click)='openPokemon(i+1)'>
+<app-pokemon *ngFor='let p of pokemon' [poke_name]='p.name' [poke_index]='p.id' [poke_primary_type]='p.primary_type'
+    [poke_secondary_type]='p.secondary_type' [routerLink]='["/pokemon", p.id]'>
     {{p.name}}
 </app-pokemon>

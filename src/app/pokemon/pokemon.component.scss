@@ -1,25 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+
 .pokemon{
-    width: 400px;
+    min-width: 350px;
+    max-width: 450px;
+    min-height: 150px;
     border: 1px solid rgba(0,0,0,0.05);
     box-shadow: 1px 1px 20px rgba(0,0,0,0.05);
     margin: 1em auto;
     border-radius: 10px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    h1{
-        background: red;
-        padding: 0.2em 0.8em;
-        position: relative;
-        right: 0.5em;
-        border-radius: 10px;
-        font-family: monospace;
-    }
-    .poke-text{
+    justify-content: space-between;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    .poke-details{
         display: flex;
-        align-items: center;
-        width: 75%;
-        font-family: monospace;
+        flex-direction: column;
+        padding: 1em;
+        h1,p{
+            margin: 0px;
+        }
+        p{
+            padding: 0.4em;
+            margin: 0.4em 0 0 0;
+            border-radius: 100px;
+            text-indent: 5px;
+        }
     }
-
+    img{
+        border-radius: 72px;
+        padding: 0.6em;
+        margin: 0.4em;
+    }
+    &:hover{
+        transform: scale(1.1);
+        transition: 0.2s all ease-in;
+    }
 }

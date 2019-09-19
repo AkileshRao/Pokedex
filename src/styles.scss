@@ -1,1 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
+
+//Colors
+
+:root{
+    --grass :#5de288;
+    --grass-dark :#49d074;
+
+    --poison : rgb(199, 1, 199);
+    --poison-dark : rgb(133, 0, 133);
+
+    --fire : rgb(255, 132, 83);
+    --fire-dark : rgb(255, 92, 30);
+
+    --water : rgb(143, 197, 255);
+    --water-dark : rgb(95, 172, 255);
+
+    --flying : #ffd971;
+    --flying-dark :#ffcd46;
+
+    --normal : #ffd971;
+    --normal-dark :#ffcd46;
+
+    --bug : #8db749;
+    --bug-dark : rgb(117, 156, 55);
+
+    --electric : rgb(255, 244, 119);
+    --electric-dark : rgb(251, 236, 64);
+
+    --ground : rgb(255, 183, 95);
+    --ground-dark : rgb(199, 135, 55);
+
+    --fairy : rgb(254, 193, 204);
+    --fairy-dark : rgb(254, 193, 204);
+
+    --fighting : rgb(255, 118, 118); 
+    --fighting-dark : rgb(255, 74, 74); 
+
+    --psychic : rgb(233, 105, 255);
+    --psychic-dark : rgb(217, 0, 255);
+
+    --rock: rgb(207, 207, 207);
+    --rock-dark: rgb(138, 138, 138);
+
+    --steel : rgb(146, 146, 146);
+    --steel-dark : rgb(65, 65, 65);
+
+    --ice : rgb(223, 238, 255);
+    --ice-dark : rgb(158, 205, 255);
+
+    --ghost : rgb(131, 0, 155);
+    --ghost-dark : rgb(49, 0, 58);
+
+    --dragon : rgb(255, 195, 85);
+    --dragon-dark : rgb(255, 165, 0);
+
+}   
