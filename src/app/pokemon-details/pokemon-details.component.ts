@@ -9,6 +9,7 @@ import { POKEMON } from '../dataset/primary-types.dataset';
   styleUrls: ['./pokemon-details.component.scss']
 })
 export class PokemonDetailsComponent implements OnInit {
+  public image_url: string;
   public currentPokemon: any;
   constructor(
     private pokeService: PokemonService,
@@ -21,7 +22,7 @@ export class PokemonDetailsComponent implements OnInit {
         this.currentPokemon = {
           ...res, ...{ primary_type: POKEMON[res['id']].primary_type }
         };
-        console.log(this.currentPokemon);
+        this.image_url = `assets/pokemon_large/${this.currentPokemon.id}.svg`;
       })
     })
   }

@@ -7,26 +7,26 @@
                 <h2>{{currentPokemon?.id.toString().length > 2 ? "#" + currentPokemon?.id : (currentPokemon?.id.toString().length === 2 ? "#0" + currentPokemon?.id : "#00" + currentPokemon?.id)}}
                 </h2>
             </div>
-            <img src="assets/pokemon_large/1.svg" alt="pika">
+            <img [src]="image_url" alt="pika">
         </div>
         <div class="lower">
             <mat-tab-group>
                 <mat-tab label="About">
                     <div class="pokemon-basic-data">
                         <div class='info-row'>
-                            <p class='label'>Base XP : </p>
+                            <p class='label'>XP</p>
                             <p>{{currentPokemon?.base_experience}}</p>
                         </div>
                         <div class='info-row'>
-                            <p class='label'>Height : </p>
+                            <p class='label'>Height</p>
                             <p>{{currentPokemon?.height}}in</p>
                         </div>
                         <div class='info-row'>
-                            <p class='label'>Weight : </p>
+                            <p class='label'>Weight</p>
                             <p>{{currentPokemon?.weight}}kg</p>
                         </div>
                         <div class='info-row'>
-                            <p class='label'>Types : </p>
+                            <p class='label'>Types</p>
                             <mat-chip-list aria-label="Fish selection">
                                 <mat-chip *ngFor='let type of currentPokemon?.types'
                                     [ngStyle]="{ 'background': 'var(--' + type.type.name + ')'}">{{type.type.name}}
@@ -37,7 +37,17 @@
                 </mat-tab>
                 <mat-tab label="Base Stats">
                     <div class='pokemon-stats'>
-                        stats
+                        <div class="stat-row" *ngFor='let stat of currentPokemon?.stats'>
+                            <p class='stat-name'>
+                                {{stat.stat.name === "special-attack"? "SA" : 
+                                (stat.stat.name === "special-defense"? "SD" : 
+                                (stat.stat.name === "defense"? "Def" : stat.stat.name.charAt(0).toUpperCase() + stat.stat.name.slice(1, stat.stat.name.length)))}}
+                            </p>
+                            <div class='bar'>
+                                <p class='bar-val'>{{stat.base_stat}}</p>
+                                <mat-progress-bar color='warn' mode="determinate" value="{{stat.base_stat}}"></mat-progress-bar>
+                            </div>
+                        </div>
                     </div>
                 </mat-tab>
             </mat-tab-group>

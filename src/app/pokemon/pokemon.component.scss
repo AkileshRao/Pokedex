@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
 .pokemon{
     min-width: 350px;
     max-width: 450px;
@@ -11,7 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     color: white;
     .poke-details{
         display: flex;
