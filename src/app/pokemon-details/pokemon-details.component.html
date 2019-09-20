@@ -1,17 +1,48 @@
-<div class="pokemon-details">
-    <div class="pokemon-header">
-        <h1>title</h1>
-        <h2>id</h2>
-    </div>
-    <img src="assets/pokemon_large/1.svg" alt="pika">
-    <div class="pokemon-basic-data">
-        <p>base experience</p>
-        <p>height</p>
-        <p>weight</p>
-        <p>abilities</p>
-        <p>types</p>   
-    </div>
-    <div class='pokemon-stats'>
-        stats
+<div class="pokemon-details-container">
+    <div class="pokemon-details">
+        <div class="upper" [ngStyle]="{ 'background': 'var(--' + currentPokemon?.primary_type + ')' }">
+            <div class="pokemon-header">
+                <h1>{{currentPokemon?.name.charAt(0).toUpperCase() + currentPokemon?.name.slice(1,currentPokemon?.length)}}
+                </h1>
+                <h2>{{currentPokemon?.id.toString().length > 2 ? "#" + currentPokemon?.id : (currentPokemon?.id.toString().length === 2 ? "#0" + currentPokemon?.id : "#00" + currentPokemon?.id)}}
+                </h2>
+            </div>
+            <img src="assets/pokemon_large/1.svg" alt="pika">
+        </div>
+        <div class="lower">
+            <mat-tab-group>
+                <mat-tab label="About">
+                    <div class="pokemon-basic-data">
+                        <div class='info-row'>
+                            <p class='label'>Base XP : </p>
+                            <p>{{currentPokemon?.base_experience}}</p>
+                        </div>
+                        <div class='info-row'>
+                            <p class='label'>Height : </p>
+                            <p>{{currentPokemon?.height}}in</p>
+                        </div>
+                        <div class='info-row'>
+                            <p class='label'>Weight : </p>
+                            <p>{{currentPokemon?.weight}}kg</p>
+                        </div>
+                        <div class='info-row'>
+                            <p class='label'>Types : </p>
+                            <mat-chip-list aria-label="Fish selection">
+                                <mat-chip *ngFor='let type of currentPokemon?.types'
+                                    [ngStyle]="{ 'background': 'var(--' + type.type.name + ')'}">{{type.type.name}}
+                                </mat-chip>
+                            </mat-chip-list>
+                        </div>
+                    </div>
+                </mat-tab>
+                <mat-tab label="Base Stats">
+                    <div class='pokemon-stats'>
+                        stats
+                    </div>
+                </mat-tab>
+            </mat-tab-group>
+
+
+        </div>
     </div>
 </div>

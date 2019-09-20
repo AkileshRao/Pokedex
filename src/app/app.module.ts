@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import { PokemonListComponent } from './pokemon-list/pokemon-list.component';
 import { PokemonComponent } from './pokemon/pokemon.component';
 import { PokemonDetailsComponent } from './pokemon-details/pokemon-details.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from './material.module';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { PokemonDetailsComponent } from './pokemon-details/pokemon-details.compo
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    StorageServiceModule
+    StorageServiceModule,
+    BrowserAnimationsModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
